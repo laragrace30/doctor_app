@@ -19,7 +19,7 @@ class App extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const HomeScreen(),
-        '/doctor_details': (context) => const DoctorDetailsScreen(),
+        '/doctor_details': (context) => const DoctorDetailScreen(),
       },
     );
   }

@@ -16,7 +16,7 @@ class HomeScreenNavbar extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: Svg(
-                'assets/svg/icon-burger.svg',
+                'assets/svg/icons-burger.svg',
                 size: Size(
                   24,
                   24,
@@ -25,10 +25,10 @@ class HomeScreenNavbar extends StatelessWidget {
             ),
           ),
         ),
-        Container(
-          width: 36,
+        const SizedBox(
           height: 36,
-          child: const CircleAvatar(
+          width: 36,
+          child: CircleAvatar(
             backgroundColor: kBlueColor,
             backgroundImage: AssetImage('assets/images/pic.jpg'),
           ),
