@@ -1,16 +1,4 @@
-# doctor_app
+Flutter Design UI:
+https://www.figma.com/file/i6XD86YqfYgmMohj7pCpy4/Doctor-App---Freebies-(Community)-(Community)?type=design&node-id=10-6&mode=design&t=1ljvIYXac3nlk1i3-0
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Desktop - 1](https://github.com/laragrace30/doctor_app/assets/76945272/9729e983-a357-4864-85f8-5f368bb49a75)
