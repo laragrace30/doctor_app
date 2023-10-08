@@ -1,5 +1,5 @@
 import 'package:doctor_app/components/doctor_app_grid_menu.dart';
-//import 'package:doctor_app/components/top_doctors_list.dart';
+import 'package:doctor_app/components/top_doctors_list.dart';
 import 'package:doctor_app/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -78,6 +78,28 @@ class HomeScreen extends StatelessWidget {
                   height: 24,
                 ),
                 const DoctorAppGridMenu(),
+                const SizedBox(
+                  height: 24,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Top Doctors',
+                      style: Theme.of(context).textTheme.headlineMedium,
+                    ),
+                    Text(
+                      'View all',
+                       style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                        color: kBlueColor,
+                       ),
+                    ),
+                ],
+                ),
+                const SizedBox(
+                  height: 24,
+                ),
+                const TopDoctorsList(),
               ],
             ),
           ),
