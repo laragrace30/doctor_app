@@ -1,25 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:doctor_app/doctor_app_theme.dart';
 
+import 'screens/doctor_detail_screen.dart';
 import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const App());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Doctor App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
-        useMaterial3: true,
-      ),
-      home: const HomeScreen(),
+      theme: DoctorAppTheme.lightTheme,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const HomeScreen(),
+        '/doctor_details': (context) => const DoctorDetailsScreen(),
+      },
     );
   }
 }
