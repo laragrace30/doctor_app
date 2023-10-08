@@ -40,8 +40,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
     assets:
-    - assets/images/
-    - assets/icons/
-    - assets/svg/
+      - assets/images/
+      - assets/icons/
+      - assets/svg/
 
     uses-material-design: true
