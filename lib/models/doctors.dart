@@ -23,7 +23,7 @@ class Doctor {
 
 var topDoctors = [
   Doctor(
-      doctorName: 'dr. Gilang Segara Bening',
+      doctorName: 'Dr. Gilang Segara Bening',
       doctorSpecialty: 'Heart',
       doctorRating: '4.8',
       doctorHospital: 'Persahabatan Hospital',
@@ -34,7 +34,7 @@ var topDoctors = [
       doctorPicture: 'img-men-01.png',
       doctorIsOpen: true),
   Doctor(
-      doctorName: 'dr. Shabil Chan',
+      doctorName: 'Dr. Shabil Chan',
       doctorSpecialty: 'Dental',
       doctorRating: '4.7',
       doctorHospital: 'Columbia Asia Hospital',
@@ -45,7 +45,7 @@ var topDoctors = [
       doctorPicture: 'img-women-01.png',
       doctorIsOpen: false),
   Doctor(
-      doctorName: 'dr. Mustakim',
+      doctorName: 'Dr. Mustakim',
       doctorSpecialty: 'Eye',
       doctorRating: '4.9',
       doctorHospital: 'Salemba Carolus Hospital',
@@ -56,7 +56,7 @@ var topDoctors = [
       doctorPicture: 'img-men-02.png',
       doctorIsOpen: true),
   Doctor(
-      doctorName: 'dr. Suprihatini',
+      doctorName: 'Dr. Suprihatini',
       doctorSpecialty: 'Heart',
       doctorRating: '4.8',
       doctorHospital: 'Salemba Carolus Hospital',
@@ -67,7 +67,7 @@ var topDoctors = [
       doctorPicture: 'img-women-02.png',
       doctorIsOpen: false),
   Doctor(
-      doctorName: 'dr. Robert Posy',
+      doctorName: 'Dr. Robert Posy',
       doctorSpecialty: 'Child',
       doctorRating: '4.6',
       doctorHospital: 'Kariadi Hospital',
@@ -78,7 +78,7 @@ var topDoctors = [
       doctorPicture: 'img-men-03.png',
       doctorIsOpen: true),
   Doctor(
-      doctorName: 'dr. Matilde Hani',
+      doctorName: 'Dr. Matilde Hani',
       doctorSpecialty: 'Heart',
       doctorRating: '4.7',
       doctorHospital: 'Wiloso Hospital',
