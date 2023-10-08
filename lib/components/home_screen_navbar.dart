@@ -16,7 +16,7 @@ class HomeScreenNavbar extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: Svg(
-                'assets/svg/icons-burger.svg',
+                'assets/svg/icon-burger.svg',
                 size: Size(
                   24,
                   24,
