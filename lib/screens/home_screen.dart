@@ -62,12 +62,24 @@ class HomeScreen extends StatelessWidget {
                 ),
                 Container(
                   height: 55,
+                  width: 500,
                   padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     color: Colors.grey.shade200,
-                      )
+                    image: const DecorationImage(
+                      image: AssetImage('assets/images/Search.png'),
+                      alignment: AlignmentDirectional(0.85, 0.1)),
+                      ),
+                      child: Text(
+                        'Search doctor,medicines etc',
+                        style: GoogleFonts.roboto(
+                        fontWeight: FontWeight.normal,
+                        color: Colors.grey[350],
+                        fontSize: 15,
+                      ),
                   ),
+                ),
               ],
             )
           ],
