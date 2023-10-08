@@ -6,7 +6,7 @@ class DoctorAppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
       dividerColor: kGreyColor800,
-      backgroundColor: kWhiteColor,
+     backgroundColor: kWhiteColor,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       fontFamily: GoogleFonts.lato().fontFamily,
       textTheme: TextTheme(

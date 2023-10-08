@@ -3,7 +3,7 @@ import 'package:doctor_app/constants.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart';
 
 class HomeScreenNavbar extends StatelessWidget {
-  const HomeScreenNavbar({super.key});
+  const HomeScreenNavbar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
