@@ -1,4 +1,5 @@
 import 'package:doctor_app/components/doctor_app_grid_menu.dart';
+import 'package:doctor_app/components/top_doctors_list.dart';
 import 'package:doctor_app/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -72,6 +73,9 @@ class HomeScreen extends StatelessWidget {
                       border: InputBorder.none,
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 24,
                 ),
                 const DoctorAppGridMenu(),
               ],
